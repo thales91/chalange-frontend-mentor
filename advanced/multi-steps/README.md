@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://multi-steps-frontend-thales91.vercel.app/)
+- Live Site URL: [Site](https://multi-steps-frontend-thales91.vercel.app/)
 
 ## My process
 
