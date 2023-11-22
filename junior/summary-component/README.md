@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://challange-junior.vercel.app/)
+- Live Site URL: [Site](https://challange-junior.vercel.app/)
 
 ## My process
 
