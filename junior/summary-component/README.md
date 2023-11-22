@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop result](.screenshot/Desktop.png)
-![Mobile result](.screenshot/Mobile.png)
+![Desktop result](./screenshot/Desktop.png)
+![Mobile result](./screenshot/Mobile.png)
 
 ### Links
 
