@@ -38,10 +38,10 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop
-![Desktop result](.screenshot/Desktop.png)
+![Desktop result](./screenshot/Desktop.png)
 
 #### Mobile
-![Mobile result](.screenshot/Mobile.png)
+![Mobile result](./screenshot/Mobile.png)
 
 ### Links
 
