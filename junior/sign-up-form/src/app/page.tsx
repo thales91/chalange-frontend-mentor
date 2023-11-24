@@ -5,7 +5,7 @@ export default function Home(teste: any) {
   console.log(teste);
   return (
     <main className="flex min-h-screen flex-col md:items-center justify-center md:p-24 md:bg-charcoal-grey">
-      <div className="bg-white md:p-5 rounded-lg grid grid-cols-1 md:grid-cols-side-by-side min-h-[640px]">
+      <div className="bg-white md:p-5 rounded-3xl grid grid-cols-1 md:grid-cols-side-by-side min-h-[640px]">
         <div className="p-7 md:p-10 order-2 md:order-1">
           <h1 className="text-5xl mt-3 py-5 font-bold">Stay updated!</h1>
           <div className="py-5">
