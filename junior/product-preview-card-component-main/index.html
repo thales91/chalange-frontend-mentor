@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+    extend: {
+      backgroundImage: {
+        "mobile-pattern": "url('./images/image-product-mobile.jpg')",
+        "desktop-pattern": "url('./images/image-product-desktop.jpg')",
+      },
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+        serif: ["Fraunces", "serif"],
+    },
+      colors: {
+        "dark-cyan-hover": "hsl(158, 36%, 27%)",
+        "dark-cyan": "hsl(158, 36%, 37%)",
+        cream: "hsl(30, 38%, 92%)",
+        "very-dark-blue": "hsl(212, 21%, 14%)",
+        "dark-grayish-blue": "hsl(228, 12%, 48%)",
+      },
+    },
+  },
+      };
+  </script>
+ 
+</head>
+<body class="bg-cream ">
+<main class="min-h-screen flex items-center justify-center font-sans">
+  <div class="rounded-2xl grid grid-cols-1 md:grid-cols-2 max-w-[750px] bg-white mx-5">
+    <div class="min-h-[300px] bg-mobile-pattern md:bg-desktop-pattern bg-no-repeat bg-cover rounded-t-2xl md:rounded-l-2xl md:rounded-r-none"></div>
+    <div class="flex flex-col justify-center  md:items-start p-8 gap-8">
+      <h3 class="text-lg uppercase text-dark-grayish-blue">Perfume</h3>
+      <h1 class="text-3xl font-bold text-very-dark-blue font-serif">Gabrielle Essence Eau De Parfum</h1>
+      <p class="text-dark-grayish-blue ">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+  <div class="flex items-center gap-4"> <span class="text-4xl text-dark-cyan font-bold font-serif">$149.99</span> <span class="text-dark-grayish-blue line-through">$169.99</span></div>
+  <button type="button" class="bg-dark-cyan hover:bg-dark-cyan w-full text-lg py-4 rounded-lg text-white flex items-center justify-center gap-4 hover:bg-dark-cyan-hover "><img src="./images/icon-cart.svg" alt="cart" srcset=""> Add to Cart</button>   
+</div>
+</main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
